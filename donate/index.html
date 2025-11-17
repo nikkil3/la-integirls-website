@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <title>INTEGIRLS LA/OC</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--<link rel="icon" type="image/x-icon" href="../header-footer/ig_logo.jpg">-->
+    <link rel="icon" type="image/png" href="../header-footer/favicon.ico">
+    <link rel="stylesheet" href="../index-style.css">
+    <link rel="stylesheet" href="donate-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;700&display=swap">
+</head>
+<body>
+    <!--Announcement bar-->
+    <div id="announcement-placeholder">
+        <script>
+            fetch("../announcement/announcement.html")
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById("announcement-placeholder").innerHTML = data;
+            });
+        </script>
+    </div>
+    <div class="main-body">
+        <!-- Header -->
+        <div class="top-bar">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="text-align: left;">
+                        <span style="line-height: 1"><b>  </b></span>
+                        <img src="../header-footer/ig_logo.jpg" alt="Logo" class="header-logo">
+                        <span style="line-height: 1"><b>INTEGIRLS LA/OC</b></span>
+                    </td>
+                    <td style="text-align: right;">
+                        <a href="../">Home</a> |
+                        <a href="../compete">Compete</a> |
+                        <a href="../pastcontests">Past Contests</a> |
+                        <a href="../sponsors">Sponsors</a> |
+                        <a href="/">Donate</a> |
+                        <a href="../team">Our Team</a> |
+                        <a href="https://www.integirls.org/"  target="_blank">INTEGIRLS</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+        <main>
+            <section class="donate-hero">
+                <h1 class="fade-in">Donate</h1>
+            </section>
+            <p id="red-text">
+                All donations are tax-deductible. Email <u>sponsor@integirls.org</u> for more information.
+            </p>
+            <!-- edit the following text if you'd like to include anything or state something differently -->
+            <p class="large-text">
+                Every donation to INTEGIRLS makes a meaningful difference.
+                Your generosity empowers girls and non-binary students in STEM, supports life-changing opportunities, and helps us build a more inclusive future.
+                Thank you for believing in our mission!
+            </p>
+
+            <!-- edit the following text to indicate what your funds will be used for, and what chapter you are -->
+            <p class="small-text">
+                All donations to INTEGIRLS LA/OC will help fund our competitions, including fees for competitions resources!
+                Please specify that the donation is to the LA/OC chapter. Thank you so much!
+            </p>
+        </main>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>© 2025 INTEGIRLS LA/OC</div>
+            <div>
+                <a href="https://www.instagram.com/integirls.la" target="_blank">@integirls.la</a> |
+                <a href="mailto:la@integirls.org">la@integirls.org</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

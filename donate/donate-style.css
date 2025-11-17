@@ -1,0 +1,63 @@
+/* donate css: */
+:root {
+    --primary-color: #5e4d9e;
+    --dark-color: #2c1b2d;
+    --light-color: #C69AA4;
+    --notsolight-color: #B58A94;
+    --white-color: #ffffff;
+    --header-font: 'Montserrat', sans-serif;
+    --body-font: 'Lato', sans-serif;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+body {
+    font-family: var(--body-font);
+    background-color: var(--white-color);
+    margin: 0;
+    color: var(--dark-color);
+    line-height: 1.6;
+    overscroll-behavior: none;
+}
+
+main-body {
+    padding-top: 9vh;
+}
+
+.donate-hero {
+    background-image: url('https://i.ibb.co/Mk4nLxQb/aerial-shot-downtown-los-angeles-night.jpg'); /* insert a link of your chosen image! */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 50vh;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Playfair Display', serif;
+    color: white; /* this changes the color of the "donate" text */
+    font-size: 4rem;
+}
+
+h1 {
+    font-family: 'Playfair Display',serif;
+}
+
+p {
+    margin: 20px 150px 20px 150px;
+    text-align: center; 
+}
+
+#red-text {
+    color: ''; /* changes the color of the "all donations are..." text */
+    font-size: 1.2rem;
+}
+
+.large-text {
+    font-size: 1.5rem;
+}
+
+.small-text {
+    font-size: 1.2rem;
+}

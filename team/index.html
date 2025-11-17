@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--<link rel="icon" type="image/x-icon" href="../header-footer/ig_logo.jpg">-->
+    <link rel="icon" type="image/png" href="../header-footer/favicon.ico">
+    <title>About Us</title>
+    <link rel="stylesheet" href="about-style.css">
+    <link rel="stylesheet" href="../index-style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Announcement bar-->
+    <div id="announcement-placeholder">
+        <script>
+            fetch("../announcement/announcement.html")
+            .then(response => response.text())
+            .then(data => {
+            document.getElementById("announcement-placeholder").innerHTML = data;
+            });
+        </script>
+    </div>
+    <div class="main-body">
+        <!-- Header -->
+        <div class="top-bar">
+            <table style="width: 100%;">
+                <tr>
+                    <td style="text-align: left;">
+                        <span style="line-height: 1"><b>  </b></span>
+                        <img src="../header-footer/ig_logo.jpg" alt="Logo" class="header-logo">
+                        <span style="line-height: 1"><b>INTEGIRLS LA/OC</b></span>
+                    </td>
+                    <td style="text-align: right;">
+                        <a href="../">Home</a> |
+                        <a href="../compete">Compete</a> |
+                        <a href="../pastcontests">Past Contests</a> |
+                        <a href="../sponsors">Sponsors</a> |
+                        <a href="../donate">Donate</a> |
+                        <a href="/">Our Team</a> |
+                        <a href="https://www.integirls.org/"  target="_blank">INTEGIRLS</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <main>
+            <section class="about-hero">
+                <div class="container">
+                    <h1 class="fade-in">Our Team</h1>
+                </div>
+            </section>
+
+            <div class="container">
+                <section class="team-section">
+                    <div class="team-grid">
+                        <!-- to add a team member: copy paste from <div class="team-member"> to </div> -->
+                        <!-- to edit content: <h3> section is the name, <p> is the bio of the member -->
+                        <!-- and to edit the photo upload the image online (using like imgbb or smt) then-->
+                        <!-- copy paste the link for the photo into it. i would suggest changing photo to like -->
+                        <!-- (Name)'s Photo or something -->
+                        <!-- if you want to change the background photo at the top of the page, go to about-style.css -->
+                        <!-- find .about-hero and similarly replace the url with the link to the photo -->
+                        <div class="team-member">
+                            <img src="https://media.discordapp.net/attachments/1408839425441660939/1411930792074018947/IMG-20250809-WA0015.jpg?ex=690b7b45&is=690a29c5&hm=b7e24a9821694cdbff8d04fc0671009b61d4f31eb0d46000572ea1bb5c037b04&=&format=webp&width=2332&height=1750" alt="Avika Agarwal">
+                            <h3>Avika Agarwal</h3>
+                            <p>Hi. I am Avika and I am a sophomore at California Academy of Math and Science. I go by she/her pronouns.  My favorite subjects are computer science and math. I am a part of FRC 687, and I enjoy playing the drums and watching movies.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://cdn.discordapp.com/attachments/1422082631092146268/1435814019268349982/IMG_2279.jpg?ex=691b2d42&is=6919dbc2&hm=fe144b073b4cfea365a6d1cd354b410524f947b5082faf3d488875b49412bdec" alt="Kimberly Vu">
+                            <h3>Kimberly Vu</h3>
+                            <p>Hi! I’m Kimberly (she/her), and I’m a junior. I first discovered competitive math and joined INTEGIRLS during my freshman year, but I have loved math for as long as I can remember. I love exploring intricate math fields and doing practice problems, and when I’m not doing math, I'm either playing video games, eating Buldak ramen, or running. I can’t wait to share my passion for math with other students!</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://cdn.discordapp.com/attachments/1408839425441660939/1409320535137058816/IMG_8436.jpg?ex=691bb187&is=691a6007&hm=ebb5fef47c7d4f486a2acca645f4f697c20794c162be9c31e0c1bc908fa54ba8" alt="Nikki Le">
+                            <h3>Nikki Le</h3>
+                            <p>Hi! I’m Nikki and I am a senior at Beckman High School! I go by she/her and I have always been interested in STEM, particularly creating websites and computer science projects my entire life! Outside of school, I love to play lacrosse, listen to all types of music, and watch anime/kdramas.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://cdn.discordapp.com/attachments/1408839425441660939/1409379126606823445/IMG_0937.jpg?ex=691b3f58&is=6919edd8&hm=46e85d9e5ef9fa70571bcff4bbef5e8edc0a2757c4d71e6edfe5e1995d63ee72" alt="Sahara Bhakta">
+                            <h3>Sahara Bhakta</h3>
+                            <p>Hey I’m Sahara and I’m a freshman! I go by she/her and I love to watch cdramas/anime, listen to music, and hangout with my friends. I love to learn new things in STEM and hope to continue to experience new things.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://cdn.discordapp.com/attachments/1408839425441660939/1409381779692851252/8537A91A-8A36-4DC6-9F06-60EF9973712E.png?ex=691b41d1&is=6919f051&hm=26cd639648bc8297315c1fa0ed3ddff90e84b7c5fe6ddca8a0eab721f3fb2b30" alt="Katie Kim">
+                            <h3>Katie Kim</h3>
+                            <p>Hi--my name is Katie and I'm a freshman. I go by she/her and, having been a part of robotics clubs/classes since fifth grade, love to learn about and experience new things in STEM. In my free time, I enjoy reading books and traveling with my family.</p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://cdn.discordapp.com/attachments/1408839425441660939/1409397099879206964/IMG_9685.jpg?ex=691b5015&is=6919fe95&hm=bed1ad13258c02017840280873b555236f8bec8e9d58262f737d40d77a764bb1" alt="Katelyn Tran">
+                            <h3>Katelyn Tran</h3>
+                            <p>Hello! My name is Katelyn! I’m a senior, and my pronouns are she/her. As an active Science Olympiad and Math Olympiad student, I love immersing myself in STEM outside of the classroom, and I am so excited to be a part of this team to share that passion with other students! </p>
+                        </div>
+                        <div class="team-member">
+                            <img src="https://cdn.discordapp.com/attachments/1408839425441660939/1411906756434595971/P1040986.jpg?ex=691b36e2&is=6919e562&hm=aa3a256549597b6dfa90c46db7c67366a992c8404b059bbc87f3edda85f8475d" alt="Katie Tai">
+                            <h3>Katie Tai</h3>
+                            <p>Hi! I’m Katie! I’m a junior that goes by she/her pronouns! I’m a competitive pianist that loves anything robotics or math related! I can’t wait to meet everyone!</p>
+                        </div>
+                        </div>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div>© 2025 INTEGIRLS LA/OC</div>
+            <div>
+                <a href="https://www.instagram.com/integirls.la" target="_blank">@integirls.la</a> |
+                <a href="mailto:la@integirls.org">la@integirls.org</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

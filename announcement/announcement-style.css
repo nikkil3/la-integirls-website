@@ -1,0 +1,45 @@
+/* announcement css: */
+/* IMPORTANT NOTE: the style of the announcement bar is actually inside the html file so it can be loaded into every single page, this extra file is just for cautionary purposes */
+
+:root {
+    --primary-color: #5e4d9e;
+    --dark-color: #2c1b2d;
+    --light-color: #C69AA4;
+    --notsolight-color: #B58A94;
+    --white-color: #ffffff;
+    --header-font: 'Montserrat', sans-serif;
+    --body-font: 'Lato', sans-serif;
+    margin: 0 auto;
+    padding: 0 0px;
+}
+
+body {
+    margin: 0;
+    font-family: var(--body-font)
+}
+
+
+.announcement {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    align-items: center;
+    height: 9vh;
+    text-align: center;
+    background-color: #575c8a; /* changes the color of the header box */
+}
+
+.announcement p {
+    color: black; /* changes the color of the text inside the header */
+}
+
+.announcement button {
+    padding: 10px 30px;
+    background-color: #575c8a; /* changes the color of the button */
+    color: black; /* changes the color of the text inside the button */
+    border-radius: 5px;
+    border-width: 1px;
+    cursor: pointer;
+}
